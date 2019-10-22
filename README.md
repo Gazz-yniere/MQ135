@@ -9,25 +9,7 @@ The way is simple, only imports the library to your .ino source code
 Instantiate the object 
 >```MQ135 mqSensor(A0);/*Where A0 is the analogic input pin 0 where the output(analogic) of the sensor is A0*/```
 
-First you need the resistance zero, leave the sensor connected 24hrs outside and obtain it for each gas with this methods:
-> ```
-  float getRZeroCO();
-  float getRZeroCO2();
-  float getRZeroEthanol();
-  float getRZeroNH4();
-  float getRZeroToluene();
-  float getRZeroAcetone();
-```
-
-Call them with 
-
-> ```
-float resistanceZero = mqSensor.getRZeroCO();
-```
-
-Change the resistance zero in 
-
-> MQ135/MQ135.h
+No need to calibrate, it's done when it's booting but you should have good values after a reboot and 48h
 
 Get the resistance (in void loop method)
 

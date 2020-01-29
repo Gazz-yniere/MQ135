@@ -21,7 +21,7 @@ First you need the resistance zero, leave the sensor connected 24hrs outside and
 
 Call them with 
 
-> ```
+>```
 float resistanceZero = mqSensor.getRZeroCO();
 ```
 

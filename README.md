@@ -21,6 +21,7 @@ Get the gas reading
   float ethanol = mqSensor.getEthanol(resistance);//ethanol ppm
   float nh4 = mqSensor.getNH4(resistance); //NH4 ppm
   float toluene = mqSensor.getToluene(resistance); //toluene ppm
-  float acetone = mqSensor.getAcetone(resistance); //acetone ppm```
+  float acetone = mqSensor.getAcetone(resistance); //acetone ppm
+  ```
 
 

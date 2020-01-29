@@ -16,5 +16,5 @@ Get the resistance (in void loop method)
 > ```float resistance = mqSensor.getResistance();//resistance```
 
 Get the gas reading
-> ```float co = mqSensor.getCO(resistance);//co ppm&NewLine;float co2 = mqSensor.getCO2(resistance);//co2 ppm&NewLine;float ethanol = mqSensor.getEthanol(resistance);//ethanol ppm&NewLine;float nh4 = mqSensor.getNH4(resistance); //NH4 ppm&NewLine;float toluene = mqSensor.getToluene(resistance); //toluene ppm&NewLine;float acetone = mqSensor.getAcetone(resistance); //acetone ppm&NewLine;
+> ```float co = mqSensor.getCO(resistance);//co ppm &NewLine;float co2 = mqSensor.getCO2(resistance);//co2 ppm &NewLine;float ethanol = mqSensor.getEthanol(resistance);//ethanol ppm &NewLine;float nh4 = mqSensor.getNH4(resistance); //NH4 ppm &NewLine;float toluene = mqSensor.getToluene(resistance); //toluene ppm &NewLine;float acetone = mqSensor.getAcetone(resistance); //acetone ppm &NewLine;
   ```

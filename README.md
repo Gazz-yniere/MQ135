@@ -23,5 +23,3 @@ Get the gas reading
   float toluene = mqSensor.getToluene(resistance); //toluene ppm
   float acetone = mqSensor.getAcetone(resistance); //acetone ppm
   ```
-
-
